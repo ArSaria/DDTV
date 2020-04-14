@@ -1,0 +1,173 @@
+2020-04-07 17:09:16.037  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : Starting DdtvApplication on Kinimos with PID 2200 (E:\Spring\Projects\DDTV\bin\main started by ASUS in E:\Spring\Projects\DDTV)
+2020-04-07 17:09:16.037  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : No active profile set, falling back to default profiles: default
+2020-04-07 17:09:16.120  INFO 2200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-04-07 17:09:16.123  INFO 2200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 1 MongoDB repository interfaces.
+2020-04-07 17:09:16.362  INFO 2200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-07 17:09:16.363  INFO 2200 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-07 17:09:16.363  INFO 2200 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-07 17:09:16.384  INFO 2200 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-04-07 17:09:16.384  INFO 2200 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 346 ms
+2020-04-07 17:09:16.392  INFO 2200 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-07 17:09:16.394  INFO 2200 --- [cluster-ClusterId{value='5e8c433c7dabff0b88a6542f', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:12, serverValue:76}] to localhost:27017
+2020-04-07 17:09:16.396  INFO 2200 --- [cluster-ClusterId{value='5e8c433c7dabff0b88a6542f', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=275600}
+2020-04-07 17:09:16.403  INFO 2200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-07 17:09:16.430  INFO 2200 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 17:09:16.455  INFO 2200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-07 17:09:16.455  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : Started DdtvApplication in 0.448 seconds (JVM running for 4732.215)
+2020-04-07 17:09:16.456  INFO 2200 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-07 17:09:25.656  INFO 2200 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-07 17:09:25.656  INFO 2200 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-07 17:09:25.658  INFO 2200 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2020-04-07 17:09:25.659  INFO 2200 --- [http-nio-8080-exec-3] cn.edu.scujcc.api.ChannelController      : 正在查找所有频道信息...
+2020-04-07 17:09:25.661  INFO 2200 --- [http-nio-8080-exec-3] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:13, serverValue:77}] to localhost:27017
+2020-04-07 17:11:30.412  INFO 2200 --- [http-nio-8080-exec-6] cn.edu.scujcc.api.ChannelController      : 正在查找所有频道信息...
+2020-04-07 17:15:38.278  INFO 2200 --- [http-nio-8080-exec-9] cn.edu.scujcc.api.ChannelController      : 正在查找所有频道信息...
+2020-04-07 17:18:02.890  INFO 2200 --- [Thread-67] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-07 17:18:02.891  INFO 2200 --- [Thread-67] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:13, serverValue:77}] to localhost:27017 because the pool has been closed.
+2020-04-07 17:18:03.301  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : Starting DdtvApplication on Kinimos with PID 2200 (E:\Spring\Projects\DDTV\bin\main started by ASUS in E:\Spring\Projects\DDTV)
+2020-04-07 17:18:03.301  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : No active profile set, falling back to default profiles: default
+2020-04-07 17:18:03.384  INFO 2200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-04-07 17:18:03.387  INFO 2200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 1 MongoDB repository interfaces.
+2020-04-07 17:18:03.460  INFO 2200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-07 17:18:03.461  INFO 2200 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-07 17:18:03.461  INFO 2200 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-07 17:18:03.483  INFO 2200 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-04-07 17:18:03.483  INFO 2200 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 181 ms
+2020-04-07 17:18:03.493  INFO 2200 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-07 17:18:03.496  INFO 2200 --- [cluster-ClusterId{value='5e8c454b7dabff0b88a65431', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:14, serverValue:78}] to localhost:27017
+2020-04-07 17:18:03.497  INFO 2200 --- [cluster-ClusterId{value='5e8c454b7dabff0b88a65431', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=258900}
+2020-04-07 17:18:03.505  INFO 2200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-07 17:18:03.536  INFO 2200 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 17:18:03.563  INFO 2200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-07 17:18:03.564  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : Started DdtvApplication in 0.278 seconds (JVM running for 5259.323)
+2020-04-07 17:18:03.565  INFO 2200 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-07 17:18:09.298  INFO 2200 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-07 17:18:09.298  INFO 2200 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-07 17:18:09.300  INFO 2200 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2020-04-07 17:18:09.301  INFO 2200 --- [http-nio-8080-exec-2] cn.edu.scujcc.api.ChannelController      : 正在查找所有频道信息...
+2020-04-07 17:18:09.303  INFO 2200 --- [http-nio-8080-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:15, serverValue:79}] to localhost:27017
+2020-04-07 17:18:16.941  INFO 2200 --- [http-nio-8080-exec-4] cn.edu.scujcc.api.ChannelController      : 正在查找所有频道信息...
+2020-04-07 17:22:22.458  INFO 2200 --- [Thread-74] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-07 17:22:22.459  INFO 2200 --- [Thread-74] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:15, serverValue:79}] to localhost:27017 because the pool has been closed.
+2020-04-07 17:22:22.863  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : Starting DdtvApplication on Kinimos with PID 2200 (E:\Spring\Projects\DDTV\bin\main started by ASUS in E:\Spring\Projects\DDTV)
+2020-04-07 17:22:22.863  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : No active profile set, falling back to default profiles: default
+2020-04-07 17:22:22.945  INFO 2200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-04-07 17:22:22.949  INFO 2200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 1 MongoDB repository interfaces.
+2020-04-07 17:22:23.022  INFO 2200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-07 17:22:23.023  INFO 2200 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-07 17:22:23.023  INFO 2200 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-07 17:22:23.046  INFO 2200 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-04-07 17:22:23.046  INFO 2200 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 181 ms
+2020-04-07 17:22:23.054  INFO 2200 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-07 17:22:23.061  INFO 2200 --- [cluster-ClusterId{value='5e8c464f7dabff0b88a65433', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:16, serverValue:80}] to localhost:27017
+2020-04-07 17:22:23.063  INFO 2200 --- [cluster-ClusterId{value='5e8c464f7dabff0b88a65433', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=249200}
+2020-04-07 17:22:23.069  INFO 2200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-07 17:22:23.098  INFO 2200 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 17:22:23.123  INFO 2200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-07 17:22:23.123  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : Started DdtvApplication in 0.274 seconds (JVM running for 5518.882)
+2020-04-07 17:22:23.124  INFO 2200 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-07 17:22:45.557  INFO 2200 --- [Thread-81] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-07 17:22:45.960  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : Starting DdtvApplication on Kinimos with PID 2200 (E:\Spring\Projects\DDTV\bin\main started by ASUS in E:\Spring\Projects\DDTV)
+2020-04-07 17:22:45.961  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : No active profile set, falling back to default profiles: default
+2020-04-07 17:22:46.031  INFO 2200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-04-07 17:22:46.035  INFO 2200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 1 MongoDB repository interfaces.
+2020-04-07 17:22:46.108  INFO 2200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-07 17:22:46.109  INFO 2200 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-07 17:22:46.109  INFO 2200 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-07 17:22:46.132  INFO 2200 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-04-07 17:22:46.132  INFO 2200 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 170 ms
+2020-04-07 17:22:46.140  INFO 2200 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-07 17:22:46.142  INFO 2200 --- [cluster-ClusterId{value='5e8c46667dabff0b88a65434', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:17, serverValue:81}] to localhost:27017
+2020-04-07 17:22:46.144  INFO 2200 --- [cluster-ClusterId{value='5e8c46667dabff0b88a65434', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=215100}
+2020-04-07 17:22:46.151  INFO 2200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-07 17:22:46.176  INFO 2200 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 17:22:46.203  INFO 2200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-07 17:22:46.203  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : Started DdtvApplication in 0.256 seconds (JVM running for 5541.963)
+2020-04-07 17:22:46.204  INFO 2200 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-07 17:23:44.506  INFO 2200 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-07 17:23:44.506  INFO 2200 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-07 17:23:44.508  INFO 2200 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2020-04-07 17:23:44.521  INFO 2200 --- [http-nio-8080-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:18, serverValue:82}] to localhost:27017
+2020-04-07 17:23:46.599  INFO 2200 --- [http-nio-8080-exec-3] cn.edu.scujcc.api.ChannelController      : 正在查找所有频道信息...
+2020-04-07 17:26:05.038  INFO 2200 --- [http-nio-8080-exec-6] cn.edu.scujcc.api.ChannelController      : 正在查找所有频道信息...
+2020-04-07 17:27:46.521  INFO 2200 --- [http-nio-8080-exec-10] cn.edu.scujcc.api.ChannelController      : 正在查找所有频道信息...
+2020-04-07 17:45:15.231  INFO 2200 --- [Thread-88] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-07 17:45:15.232  INFO 2200 --- [Thread-88] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:18, serverValue:82}] to localhost:27017 because the pool has been closed.
+2020-04-07 17:45:15.630  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : Starting DdtvApplication on Kinimos with PID 2200 (E:\Spring\Projects\DDTV\bin\main started by ASUS in E:\Spring\Projects\DDTV)
+2020-04-07 17:45:15.630  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : No active profile set, falling back to default profiles: default
+2020-04-07 17:45:15.709  INFO 2200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-04-07 17:45:15.713  INFO 2200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 1 MongoDB repository interfaces.
+2020-04-07 17:45:15.791  INFO 2200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-07 17:45:15.792  INFO 2200 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-07 17:45:15.792  INFO 2200 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-07 17:45:15.818  INFO 2200 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-04-07 17:45:15.819  INFO 2200 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 187 ms
+2020-04-07 17:45:15.827  INFO 2200 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-07 17:45:15.831  INFO 2200 --- [cluster-ClusterId{value='5e8c4bab7dabff0b88a65436', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:19, serverValue:84}] to localhost:27017
+2020-04-07 17:45:15.832  INFO 2200 --- [cluster-ClusterId{value='5e8c4bab7dabff0b88a65436', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=293100}
+2020-04-07 17:45:15.843  INFO 2200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-07 17:45:15.871  INFO 2200 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 17:45:15.897  INFO 2200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-07 17:45:15.897  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : Started DdtvApplication in 0.281 seconds (JVM running for 6891.657)
+2020-04-07 17:45:15.898  INFO 2200 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-07 17:46:12.398  INFO 2200 --- [Thread-95] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-07 17:46:12.771  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : Starting DdtvApplication on Kinimos with PID 2200 (E:\Spring\Projects\DDTV\bin\main started by ASUS in E:\Spring\Projects\DDTV)
+2020-04-07 17:46:12.771  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : No active profile set, falling back to default profiles: default
+2020-04-07 17:46:12.852  INFO 2200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-04-07 17:46:12.856  INFO 2200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 1 MongoDB repository interfaces.
+2020-04-07 17:46:12.929  INFO 2200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-07 17:46:12.929  INFO 2200 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-07 17:46:12.929  INFO 2200 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-07 17:46:12.954  INFO 2200 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-04-07 17:46:12.954  INFO 2200 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 181 ms
+2020-04-07 17:46:12.962  INFO 2200 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-07 17:46:12.965  INFO 2200 --- [cluster-ClusterId{value='5e8c4be47dabff0b88a65437', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:20, serverValue:85}] to localhost:27017
+2020-04-07 17:46:12.966  INFO 2200 --- [cluster-ClusterId{value='5e8c4be47dabff0b88a65437', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=248100}
+2020-04-07 17:46:12.974  INFO 2200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-07 17:46:13.001  INFO 2200 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 17:46:13.025  INFO 2200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-07 17:46:13.025  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : Started DdtvApplication in 0.267 seconds (JVM running for 6948.784)
+2020-04-07 17:46:13.026  INFO 2200 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-07 17:47:21.557  INFO 2200 --- [Thread-102] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-07 17:47:21.933  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : Starting DdtvApplication on Kinimos with PID 2200 (E:\Spring\Projects\DDTV\bin\main started by ASUS in E:\Spring\Projects\DDTV)
+2020-04-07 17:47:21.933  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : No active profile set, falling back to default profiles: default
+2020-04-07 17:47:22.015  INFO 2200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-04-07 17:47:22.019  INFO 2200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 1 MongoDB repository interfaces.
+2020-04-07 17:47:22.103  INFO 2200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-07 17:47:22.103  INFO 2200 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-07 17:47:22.103  INFO 2200 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-07 17:47:22.129  INFO 2200 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-04-07 17:47:22.129  INFO 2200 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 195 ms
+2020-04-07 17:47:22.137  INFO 2200 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-07 17:47:22.140  INFO 2200 --- [cluster-ClusterId{value='5e8c4c2a7dabff0b88a65438', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:21, serverValue:86}] to localhost:27017
+2020-04-07 17:47:22.142  INFO 2200 --- [cluster-ClusterId{value='5e8c4c2a7dabff0b88a65438', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=422400}
+2020-04-07 17:47:22.150  INFO 2200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-07 17:47:22.175  INFO 2200 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 17:47:22.199  INFO 2200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-07 17:47:22.203  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : Started DdtvApplication in 0.281 seconds (JVM running for 7017.959)
+2020-04-07 17:47:22.205  INFO 2200 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-07 17:47:40.395  INFO 2200 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-07 17:47:40.395  INFO 2200 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-07 17:47:40.397  INFO 2200 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2020-04-07 17:47:40.421  INFO 2200 --- [http-nio-8080-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:22, serverValue:87}] to localhost:27017
+2020-04-07 17:50:14.925  INFO 2200 --- [Thread-109] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-07 17:50:14.926  INFO 2200 --- [Thread-109] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:22, serverValue:87}] to localhost:27017 because the pool has been closed.
+2020-04-07 17:50:15.356  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : Starting DdtvApplication on Kinimos with PID 2200 (E:\Spring\Projects\DDTV\bin\main started by ASUS in E:\Spring\Projects\DDTV)
+2020-04-07 17:50:15.357  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : No active profile set, falling back to default profiles: default
+2020-04-07 17:50:15.439  INFO 2200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-04-07 17:50:15.442  INFO 2200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 1 MongoDB repository interfaces.
+2020-04-07 17:50:15.516  INFO 2200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-07 17:50:15.516  INFO 2200 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-07 17:50:15.517  INFO 2200 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-07 17:50:15.543  INFO 2200 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-04-07 17:50:15.543  INFO 2200 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 185 ms
+2020-04-07 17:50:15.552  INFO 2200 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-07 17:50:15.555  INFO 2200 --- [cluster-ClusterId{value='5e8c4cd77dabff0b88a65439', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:23, serverValue:88}] to localhost:27017
+2020-04-07 17:50:15.556  INFO 2200 --- [cluster-ClusterId{value='5e8c4cd77dabff0b88a65439', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=216300}
+2020-04-07 17:50:15.566  INFO 2200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-07 17:50:15.597  INFO 2200 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 17:50:15.626  INFO 2200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-07 17:50:15.627  INFO 2200 --- [restartedMain] cn.edu.scujcc.DdtvApplication            : Started DdtvApplication in 0.284 seconds (JVM running for 7191.387)
+2020-04-07 17:50:15.628  INFO 2200 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-07 17:51:04.798  INFO 2200 --- [RMI TCP Connection(185)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-04-07 17:51:04.799  INFO 2200 --- [RMI TCP Connection(185)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

@@ -28,9 +28,8 @@ public class ChannelController {
 	
 	@GetMapping
 	public List<Channel> getAllChannel() {
-		logger.info("ÕıÔÚ²éÕÒËùÓĞÆµµÀĞÅÏ¢...");
+		logger.info("æ­£åœ¨æŸ¥æ‰¾æ‰€æœ‰é¢‘é“ä¿¡æ¯ï¼Œè¯·ç¨ç­‰...");
 		List<Channel> results = service.getAllChannels();
-		logger.debug("ËùÓĞÆµµÀµÄÊıÁ¿ÊÇ£º" + results.size());
 		
 		return results;
 	}
@@ -38,49 +37,50 @@ public class ChannelController {
 	
 	@GetMapping("/{id}")
 	public Channel getChannel(@PathVariable String id) {
+		logger.info("æ­£åœ¨è¯»å–"+id+"çš„é¢‘é“ä¿¡æ¯...");
 		Channel c = service.getChannel(id);
 		if (c != null) {
 			return c;
 		}else {
-			logger.error("ÕÒ²»µ½Ö¸¶¨µÄÆµµÀ¡£");
+			logger.error("æ‰¾ä¸åˆ°æŒ‡å®šçš„é¢‘é“ã€‚");
 			return null;
 		}
 	}
 	
 	@DeleteMapping("/{id}")
 	public ResponseEntity<String> deleteChannel(@PathVariable String id){
-		System.out.println("¼´½«É¾³ıÆµµÀ£¬id="+id);
+		System.out.println("å³å°†åˆ é™¤é¢‘é“ï¼Œid="+id);
 		boolean result = service.deleteChannel(id);
 		if (result) {
-			return ResponseEntity.ok().body("É¾³ı³É¹¦");
+			return ResponseEntity.ok().body("åˆ é™¤æˆåŠŸ");
 		}else {
-			return ResponseEntity.ok().body("É¾³ıÊ§°Ü");
+			return ResponseEntity.ok().body("åˆ é™¤å¤±è´¥");
 		}
 	}
 	
 	@PostMapping
 	public Channel createChannel(@RequestBody Channel c) {
-		System.out.println("¼´½«ĞÂ½¨ÆµµÀ£¬ÆµµÀÊı¾İ£º" + c);
+		System.out.println("å³å°†æ–°å»ºé¢‘é“ï¼Œé¢‘é“æ•°æ®ï¼š" + c);
 		Channel saved = service.createChannel(c);
 		return saved;
 	}
 	
 	@PutMapping
 	public Channel updateChannel(@RequestBody Channel c) {
-		System.out.println("¼´½«¸üĞÂÆµµÀ£ºÆµµÀÊı¾İ£º" + c);
+		System.out.println("å³å°†æ›´æ–°é¢‘é“ï¼šé¢‘é“æ•°æ®ï¼š" + c);
 		Channel updated = service.updateChannel(c);
 		return updated;
 	}
 	
 	@GetMapping("/t/{title}")
 	public List<Channel> searchByTitle(@PathVariable String title) {
-		System.out.println("ÕıÔÚ¸ù¾İ±êÌâ£º" + title + " ²éÕÒÆµµÀ¡£");
+		System.out.println("æ­£åœ¨æ ¹æ®æ ‡é¢˜ï¼š" + title + " æŸ¥æ‰¾é¢‘é“ã€‚");
 		return service.searchByTitle(title);
 	}
 	
 	@GetMapping("/q/{quality}")
 	public List<Channel> searchByQuality(@PathVariable String quality) {
-		System.out.println("ÕıÔÚ¸ù¾İÇåÎú¶È£º" + quality + " ²éÕÒÆµµÀ¡£");
+		System.out.println("æ­£åœ¨æ ¹æ®æ¸…æ™°åº¦ï¼š" + quality + " æŸ¥æ‰¾é¢‘é“ã€‚");
 		return service.searchByQuality(quality);
 	}
 	
