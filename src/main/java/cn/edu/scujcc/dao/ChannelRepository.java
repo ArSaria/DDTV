@@ -15,7 +15,7 @@ public interface ChannelRepository extends MongoRepository<Channel,String>{
 	List<Channel> findByTitle(String t);
 	List<Channel> findByQuality(String q);
 	
-	//ÕÒ³öÆÀÂÛÊ±¼äÔÚÖ¸¶¨ÈÕÆÚÖ®ºóµÄËùÓĞÆµµÀ
+	//æ‰¾å‡ºè¯„è®ºæ—¶é—´åœ¨æŒ‡å®šæ—¥æœŸä¹‹åçš„æ‰€æœ‰é¢‘é“
 	public List<Channel> findByCommentsDtAfter(LocalDateTime theDt);
 	
 	

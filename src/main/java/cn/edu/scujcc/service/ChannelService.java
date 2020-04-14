@@ -20,14 +20,14 @@ public class ChannelService {
 	private ChannelRepository repo;
 	public static final Logger logger = LoggerFactory.getLogger(ChannelService.class);
 
-	//»ñÈ¡ËùÓĞÆµµÀ
+	//è·å–æ‰€æœ‰é¢‘é“
 	public List<Channel> getAllChannels(){
 		return repo.findAll();
 	}
 	
 	
 	/**
-	 * »ñÈ¡Ò»¸öÆµµÀ
+	 * è·å–ä¸€ä¸ªé¢‘é“
 	 * 
 	 * @param id 
 	 * @return
@@ -52,7 +52,7 @@ public class ChannelService {
 	}
 	
 	/**
-	 * É¾³ı
+	 * åˆ é™¤
 	 * @param id
 	 * @return
 	 */
@@ -63,15 +63,15 @@ public class ChannelService {
 		return result;
 	}
 	
-	//±£´æ
+	//ä¿å­˜
 	public Channel createChannel(Channel c) {
 		return repo.save(c);
 	}
 	
 	/**
-	 * ¸üĞÂÖ¸¶¨ÆµµÀĞÅÏ¢¡£
-	 * @param c ĞÂµÄÆµµÀĞÅÏ¢£¬ÓÃÓÚ¸üĞÂÒÑ´æÔÚµÄÍ¬Ò»ÆµµÀ¡£
-	 * @return ¸üĞÂºóµÄÆµµÀĞÅÏ¢
+	 * æ›´æ–°æŒ‡å®šé¢‘é“ä¿¡æ¯ã€‚
+	 * @param c æ–°çš„é¢‘é“ä¿¡æ¯ï¼Œç”¨äºæ›´æ–°å·²å­˜åœ¨çš„åŒä¸€é¢‘é“ã€‚
+	 * @return æ›´æ–°åçš„é¢‘é“ä¿¡æ¯
 	 */
 	public Channel updateChannel(Channel c) {
 		Channel saved = getChannel(c.getId());
@@ -96,9 +96,9 @@ public class ChannelService {
 	}
 	
 	/**
-	 * ÕÒ³ö½ñÌìÓĞÆÀÂÛµÄÆµµÀ
+	 * æ‰¾å‡ºä»Šå¤©æœ‰è¯„è®ºçš„é¢‘é“
 	 * 
-	 * @return ÆµµÀÁĞ±í
+	 * @return é¢‘é“åˆ—è¡¨
 	 */
 	public List<Channel> getLatestCommentsChannel() {
 		LocalDateTime now = LocalDateTime.now();
